@@ -11,6 +11,12 @@ header {
   background-color: #EC715F;
 }
 
+.container {
+  width: 1024px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 .logo_image {
   float: left;
   height: 60px;
