@@ -11,21 +11,23 @@ header {
   background-color: #EC715F;
 }
 
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
 .container {
   width: 1024px;
-  justify-content: space-between;
   margin: 0 auto;
 }
 
 .logo_image {
-  float: left;
-  height: 60px;
-  width: 80px;
+  height: 70px;
 }
 
 .nav-list {
   display: flex;
-  justify-content: flex-end; 
 }
 
 /*ナビリスト*/
@@ -34,4 +36,9 @@ header {
   color: #FAFAFA;
   list-style: none;
   margin: 0 30px;
+  line-height: 70px;
+}
+
+.nav-list-item a {
+  color: #FAFAFA;
 }
