@@ -41,4 +41,26 @@ header {
 
 .nav-list-item a {
   color: #FAFAFA;
+  text-decoration: none;
+}
+
+#mv {
+  width :100%;
+  height: 650px;
+  background-image :url(img3/mv.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.mv-title {
+  color: #FAFAFA;
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.mv-text {
+  color: #FAFAFA;
+  font-size: 20px;
+  padding-top:10px;
 }
