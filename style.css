@@ -64,3 +64,66 @@ header {
   font-size: 20px;
   padding-top:10px;
 }
+
+/*portfolio*/
+#portfolio {
+  background-color: #ECEFF1;
+}
+
+.production-group {
+  width: 920px;
+  display:flex;
+  flex-flow: row wrap;
+  padding: 30px 0 90px 0;
+}
+
+.heading-title {
+  font-size: 32px;
+  color: #000;
+  padding-top:90px;
+  text-align:center;
+  border-bottom: 3px solid #EC715F;
+}
+
+.heading-text {
+  text-align:center;
+  font-size: 16px;
+  color: #000;
+  padding: 30px 0;
+}
+
+.production {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.bg-1 {
+  background-image: url(img3/sketch.jpg);
+}
+
+.bg-2 {
+  background-image: url(img3/websuku.png);
+}
+
+.bg-3 {
+  background-image: url(img3/write.jpg);
+}
+
+.bg-4 {
+  background-image: url(img3/webcamp.png);
+}
+
+.bg-5 {
+  background-image: url(img3/talk.jpg);
+}
+
+.bg-6 {
+  background-image: url(img3/webcamp-mother.png);
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
