@@ -127,3 +127,31 @@ header {
 .production:nth-child(3n) {
   margin-right: 0;
 }
+
+#feature {
+}
+
+.strength-group {
+  width: 980px;
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.strength {
+  text-align: center;
+  width: 320px;
+  margin-right: 10px;
+  font-size: 60px;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+}
