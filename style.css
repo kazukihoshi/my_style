@@ -161,3 +161,24 @@ header {
   color: #000;
 }
 
+/*profile*/
+
+.profile-group {
+  display: flex;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.my-face {
+  width: 250px;
+  height: 250px;
+  background-image: url(img3/my-icon.jpg);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.right-content {
+  width: 50%;
+}
