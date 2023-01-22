@@ -134,7 +134,8 @@ header {
 .strength-group {
   width: 980px;
   display: flex;
-  margin-bottom: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
 }
 
 .strength {
@@ -142,6 +143,10 @@ header {
   width: 320px;
   margin-right: 10px;
   font-size: 60px;
+}
+
+.strength:last-child {
+  margin-right: 0;
 }
 
 .strength-title {
@@ -155,3 +160,4 @@ header {
   font-size: 16px;
   color: #000;
 }
+
