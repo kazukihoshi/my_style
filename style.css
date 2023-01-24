@@ -197,3 +197,29 @@ header {
   font-size: 16px;
   color: #000;
 }
+
+/*contact*/
+.contact-group {
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.right-contact-content {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.right-contact-content .fa {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-contact-content .fa:last-child {
+  margin-right: 0;
+}
