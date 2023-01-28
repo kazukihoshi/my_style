@@ -243,3 +243,37 @@ footer {
   font-size: 16px;
   text-align: center;
 }
+
+/*レスポンシブデザイン*/
+@media screen and (max-width:767px) {
+ .container {
+   width: 90%;
+ }
+
+  header {
+    height: 50px;
+    width: 90%;
+  }
+
+  #mv {
+    background-image: url(img3/code.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 650px;
+    width: 90%;
+  }
+
+  .mv-title {
+    font-size: 40px;
+    color: #FAFAFA;
+    padding-top: 200px;
+    padding-bottom: 10px;
+  }
+
+  .mv-text {
+    font-size: 18px;
+    color: #FAFAFA;
+  }
+
+}
