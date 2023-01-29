@@ -11,7 +11,7 @@ header {
   background-color: #EC715F;
 }
 
-.header-wrapper {
+.header-group {
   display: flex;
   justify-content: space-between;
   font-size: 0;
@@ -22,7 +22,7 @@ header {
   margin: 0 auto;
 }
 
-.logo_image {
+.logo-image {
   height: 70px;
 }
 
@@ -246,13 +246,50 @@ footer {
 
 /*レスポンシブデザイン*/
 @media screen and (max-width:768px) {
+
  .container {
    width: 90%;
- }
+  }
 
+  /*header*/
   header {
     height: 50px;
     width: 90%;
+  }
+
+  .logo-image {
+    height: 50px;
+  }
+
+  .menu-box {
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+
+  .list-bar:first-child {
+    margin-top: 10px;
+  }
+
+  .list-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+  }
+
+  .nav-list {
+    display: none;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-color: rgba;
   }
 
   #mv {
@@ -289,6 +326,9 @@ footer {
   }
 
   /*Feature*/
+  #feature {
+    width: 90%;
+  }
   .strength-group {
     flex-flow: row wrap;
     width: 320px;
@@ -299,16 +339,42 @@ footer {
   }
 
   /*profile*/
+  #profile {
+    width: 90%;
+  }
   .profile-group {
     flex-flow: row wrap;
     text-align: center;
   }
 
   .left-content {
-  width: 100%;
+    width: 100%;
   }
 
   .right-content {
+    width: 100%;
+  }
+
+  /*contact*/
+  #contact {
+    width:90%;
+  }
+  .contact-group {
+    flex-flow: row wrap;
+    text-align: center;
+    width: 100%;
+  }
+
+  .left-contact-content {
   width: 100%;
   }
+
+  .right-contact-content {
+  width: 100%;
+  }
+
+  footer {
+    width: 90%;
+  }
+
 }
