@@ -245,7 +245,7 @@ footer {
 }
 
 /*レスポンシブデザイン*/
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
  .container {
    width: 90%;
  }
@@ -275,5 +275,26 @@ footer {
     font-size: 18px;
     color: #FAFAFA;
   }
+  /*portfolio*/
+  #portfolio {
+    width: 90%;
+  }
 
+  .sp-none {
+    display: none;
+  }
+
+  .production-group {
+    width: 300px;
+  }
+
+  /*Feature*/
+  .strength-group {
+    flex-flow: row wrap;
+    width: 320px;
+  }
+
+  .strength {
+    margin-right: 0;
+  }
 }
